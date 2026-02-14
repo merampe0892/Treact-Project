@@ -53,8 +53,6 @@ ul {
     opacity: 1;
 }
 
-
-
 /* 
 
 Navigation
@@ -160,9 +158,9 @@ nav {
 
 .menu__links {
     width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu__link {
@@ -324,7 +322,7 @@ input::placeholder {
 
 .intro__svg {
     position: absolute;
-    left: -50px;;
+    left: -50px;
     bottom: 100px;
     width: 16rem;
     --tw-translate-x: -66.67%;
@@ -416,7 +414,7 @@ Features
 .image__container {
     margin:-4px 16px;
     border-style: solid;
-    border-color: rgb(226, 232, 240);;
+    border-color: rgb(226, 232, 240);
     flex-shrink: 0;
     border-radius: 9999px;
     border-width: 1px;
@@ -930,6 +928,7 @@ PRICING
   border-top: 2px solid rgb(229, 231, 235);
   border-bottom: 2px solid rgb(229, 231, 235);
 }
+
 .plan:nth-child(2) .plan__features {
   border-top: 2px solid rgb(102, 126, 234);
   border-bottom: 2px solid rgb(102, 126, 234);
@@ -1486,11 +1485,11 @@ FOOTER
 
     .btn__menu {
     display: block;
-  }
+    }
 
-  .nav__links {
+    .nav__links {
     display: none;
-  }
+     }
 
     header .row {
     flex-direction: column;
@@ -1713,7 +1712,7 @@ FOOTER
 
 
 
-/* SMALL PHONES, LARGE SMARTPHONES */
+/* SMALL PHONES*/
 @media (max-width: 640px) {
     .landing__input {
         flex-direction: column;
