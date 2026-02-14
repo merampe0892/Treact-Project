@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+body {
+   overflow-x: hidden;
+}
+
 main {
     margin-bottom: 96px;
 }
